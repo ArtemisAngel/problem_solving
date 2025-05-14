@@ -10,7 +10,6 @@ class Solution:
             if count>rec:
                 rec = count
         return rec
-
 if __name__ == "__main__":
     obj = Solution()
     arr = list(map(int, input("Space Separated Values: ").split(" ")))
