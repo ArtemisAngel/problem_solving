@@ -10,7 +10,7 @@ class Solution:
             if nums[i]!=nums[k]:
                 k+=1
                 nums[k] = nums[i]
-
+                
         return k+1
 
 if __name__ == "__main__":
