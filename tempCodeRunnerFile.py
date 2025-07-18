@@ -20,11 +20,7 @@ class Solution:
         nums[small], nums[el_index-1] = nums[el_index-1], nums[small]
 
         #reversing the subarray to find the final permutation required
-<<<<<<< HEAD
-        nums[el_index:] = reversed(nums[el_index:])
-=======
         nums[el_index:-1].reverse()
->>>>>>> 043f8d997d006630687b7e43016f24d3657bd8aa
 
         return nums
     
